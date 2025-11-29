@@ -1,0 +1,32 @@
+body{
+    margin:20px;
+}
+.card{
+    background-color: silver;
+    border-color: black;
+    border-bottom: 3px dotted blue;
+    display:flex;
+    width:500px;
+    justify-content: space-around;
+    /*display: flex turns an element into a flex container, and all of its direct children become flex items.
+
+It changes the layout behavior from the normal block/inline flow to a flexible, modern layout system.*/
+    margin: 5px; 
+    padding:5px;
+}
+.words{
+    padding-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+article{
+    text-align: center;
+}
+.mars{
+    width:150px;
+    height:150px;
+}
+.blue{
+   /* border: 3px dotted blue;*/
+    margin-left: 10px;
+    padding: 10px;
+}
